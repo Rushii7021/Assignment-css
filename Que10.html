@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Background color and color property</title>
+	<style type="text/css">
+		.a{
+			height: 250px;
+			width: 300px;
+			background: yellow;
+		}
+		.b{
+			font-size: 150px;
+			color: blue;
+		}
+	</style>
+</head>
+<body>
+	<fieldset>
+		<legend>Input</legend>
+		<pre>
+			Syntex:Inside style tag
+		.a
+		{
+		height: 250px;
+		width: 300px;
+		<b>background: yellow;</b>---->background property is using for taking color <b>inside whole div</b> 
+		}
+		.b
+		{
+			font-size: 150px;
+			<b>color: blue;</b>---->This property is only taking Color in <b>Text</b>
+		}
+		
+		Syntex:inside body tag
+		&lt;div class="a">Background color&lt;/div>
+&lt;hr>
+
+&lt;div class="b">Rahul Chawda&lt;/div>
+
+		</pre>
+	</fieldset>
+	<fieldset>
+		<legend>Output</legend>
+		<div class="a">Background color</div>
+<hr>
+<div class="b">Rahul Chawda</div>
+	</fieldset>
+
+</body>
+</html>

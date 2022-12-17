@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Background position</title>
+	<style type="text/css">
+		.a{
+			height: 400px;
+			width: 800px;
+			background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFysYreld-gz18OKgTH9DYEpmGDu2ljt0jigHiIZeKdxEPEQnfDd4ErzC4s55ROo_Ku-0&usqp=CAU);
+			background-repeat: no-repeat;
+
+		}
+		.b{
+			height: 400px;
+			width: 800px;
+			background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFysYreld-gz18OKgTH9DYEpmGDu2ljt0jigHiIZeKdxEPEQnfDd4ErzC4s55ROo_Ku-0&usqp=CAU);
+			background-repeat: no-repeat;
+			background-position:100px 150px;
+		}
+	</style>
+</head>
+<body>
+<fieldset>
+	<legend>Input:Background by defult position</legend>
+	<pre>
+		Syntex:by defult background position at top-left corner  
+		a{
+			height: 400px;
+			width: 900px;
+			background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFysYreld-gz18OKgTH9DYEpmGDu2ljt0jigHiIZeKdxEPEQnfDd4ErzC4s55ROo_Ku-0&usqp=CAU);
+			background-repeat: no-repeat;
+
+		}
+		
+	</pre>
+</fieldset>
+<fieldset>
+	<legend>Output</legend>
+	<div class="a"></div>
+</fieldset>
+<fieldset>
+	<legend>Input:Background change position</legend>
+	<pre>
+		syntex:background shift at 100px in x-axis 150px in y-axis
+		.b
+		{
+			height: 400px;
+			width: 800px;
+			background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFysYreld-gz18OKgTH9DYEpmGDu2ljt0jigHiIZeKdxEPEQnfDd4ErzC4s55ROo_Ku-0&usqp=CAU);
+			background-repeat: no-repeat;
+			<b>background-position:100px 150px;</b>
+
+			<h3>Note:background move on box =background-position:x-axis y-axis;</h3>
+		}
+
+	</pre>
+</fieldset>
+<fieldset>
+<legend>Output</legend>
+	<div class="b"></div>
+</fieldset>
+</body>
+</html>
